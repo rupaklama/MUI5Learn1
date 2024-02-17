@@ -32,6 +32,13 @@ const theme = createTheme({
       lineHeight: 1.5,
       color: "#000",
     },
+    h3: {
+      fontFamily: "Montserrat, Roboto, sans-serif",
+      fontSize: "1.5rem",
+      fontWeight: 700,
+      lineHeight: 1.5,
+      color: "#000",
+    },
     body1: {
       fontFamily: "Montserrat, sans-serif",
       fontWeight: 400,

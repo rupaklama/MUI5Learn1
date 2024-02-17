@@ -1,10 +1,10 @@
 import "./App.css";
 // import Button from "@mui/material/Button";
 import styled from "@emotion/styled";
-import { Box } from "@mui/material";
-import Typography from "@mui/material/Typography";
-import Button from "./components/Button";
-import Navbar from "./components/Navbar";
+import { Box, Container } from "@mui/material";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Card from "./components/Card/Card";
 
 // Custom Button
 const StyledButton = styled.button`
@@ -13,8 +13,10 @@ const StyledButton = styled.button`
 
 function App() {
   return (
-    <Box>
-      <Navbar />
+    <Container>
+      <Header />
+      <Hero />
+      <Card />
 
       {/* using Inline styles
         The sx prop is the best option for adding style overrides to a single instance of a component in most cases.
@@ -23,7 +25,7 @@ function App() {
 
       {/* Styled utility to create Custom element */}
       {/* <StyledButton>Styled Button</StyledButton> */}
-    </Box>
+    </Container>
   );
 }
 
